@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiction Books</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Genres v</a>
+                <div class="dropdown-content">
+                    <a href="page2.html">Fiction</a>
+                    <a href="page3.html">Non-Fiction</a>
+                    <a href="page4.html">Fantasy</a>
+                </div>
+            </li>
+        </ul>
+        <button id="loginBtn">Login</button>
+    </nav>
+
+    <!-- Title -->
+    <h1>Fiction Books</h1>
+
+    <!-- Images Section -->
+    <div class="grid">
+        <div class="book-item">
+            <img src="https://example.com/fiction1.jpg" alt="Fiction Book 1">
+            <p><strong>Title:</strong> The Great Gatsby</p>
+            <p><strong>Author:</strong> F. Scott Fitzgerald</p>
+            <p><strong>Price:</strong> $10.99</p>
+        </div>
+        <div class="book-item">
+            <img src="https://example.com/fiction2.jpg" alt="Fiction Book 2">
+            <p><strong>Title:</strong> To Kill a Mockingbird</p>
+            <p><strong>Author:</strong> Harper Lee</p>
+            <p><strong>Price:</strong> $12.99</p>
+        </div>
+    </div>
+
+    <!-- Comments Section -->
+    <section id="comments">
+        <h3>What readers are saying</h3>
+        <p>"A timeless classic!" - Reader 1</p>
+        <p>"Couldn't put it down!" - Reader 2</p>
+        <p>"A masterpiece of literature!" - Reader 3</p>
+    </section>
+
+    <!-- Table Section -->
+    <table border="1">
+        <tr>
+            <th>Feature</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>Pages</td>
+            <td>300</td>
+        </tr>
+        <tr>
+            <td>Genre</td>
+            <td>Fiction</td>
+        </tr>
+        <tr>
+            <td>ISBN</td>
+            <td>978-3-16-148410-0</td>
+        </tr>
+    </table>
+
+    <!-- Form Section -->
+    <section id="review">
+        <h3>Leave a Review</h3>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <textarea placeholder="Your Comment" required></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Contact us: info@bookhaven.com | Phone: +123456789</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
